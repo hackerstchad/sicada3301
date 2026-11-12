@@ -663,7 +663,7 @@ class SteganographyModule:
             return False
         except Exception as e:
             error(f"Échec exécution {cmd[0]}: {e}")
-            return Falseength].hex()
+            return Falseength.hex()
             chunks.append({'type': ctype, 'length': length, 'crc': crc})
             idx += 12 + length
         success(f"{len(chunks)} chunks PNG analysés")
