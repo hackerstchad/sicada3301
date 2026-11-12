@@ -1,0 +1,51 @@
+# Sicada3301 - Framework d'investigation numérique et de cryptanalyse
+# Auteur: hackerstchad
+# Version: V2
+# Date: 2026-2027
+
+# Interface console enrichie
+rich>=13.0.0
+colorama>=0.4.6
+tqdm>=4.65.0
+prompt-toolkit>=3.0.0
+
+# Traitement d'images et stéganographie
+Pillow>=10.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+opencv-python>=4.8.0
+stegano>=0.11.3
+python-magic>=0.4.27
+
+# Cryptographie
+cryptography>=41.0.0
+pycryptodome>=3.19.0
+python-gnupg>=0.5.1
+
+# Métadonnées et analyse de fichiers
+ExifRead>=3.0.0
+pypdf>=3.15.0
+
+# Audio et spectrogrammes
+librosa>=0.10.1
+soundfile>=0.12.1
+matplotlib>=3.7.0
+
+# OCR et analyse linguistique
+pytesseract>=0.3.10
+langdetect>=1.0.9
+textblob>=0.17.1
+
+# Web / OSINT / Réseau
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+urllib3>=2.0.0
+
+# Données géographiques
+geopy>=2.4.0
+qrcode>=7.4.2
+pyzbar>=0.1.9
+
+# Utilitaires
+base58>=2.1.1
+hashlib-compat>=1.0.0
